@@ -8,7 +8,7 @@ function findMultiplierPrimeNumbers(number) {
     while(number > 1){ 
         //dividiremos number entre el número c del contador y si el resto es 0, el número c es primo
         if(number % c == 0){ 
-            console.log(c + ' ');
+            console.log(c);
         //se hace una asignación de división,se divide number entre el número c que ha entrado en el if
         //y el resultado de la división pasa a ser la variable number, que vuelve a entrar en el bucle ya que el resto es 0             
             number /= c; 
